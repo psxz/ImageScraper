@@ -14,6 +14,6 @@ Docker run command can be used to increase the RAM available to the container vi
 
 docker run -v /dev/shm:/dev/shm --shm-size=2gb -d -p 8080:8080 IMAGE_NAME
 
-and disabling the '--disable-dev-shm-usage' option in ScraperCore.py
+and commenting out the '--disable-dev-shm-usage' option in ScraperCore.py
 
 The saved results can also be stored by mounting the 'job_info' directory with Docker run command.
