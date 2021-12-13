@@ -1,4 +1,4 @@
-# ImageScraper
+# Image URL Scraper
 
 A simple image url scraper application built with Beautiful Soup, Selenium and Flask. Can be run in Docker after building an image using the provided Dockerfile. Not built for production.
 
