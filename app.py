@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Dec 11 02:43:13 2021
-
-@author: Priyam
-"""
 
 
 from ScraperCore import ImageCrawler
