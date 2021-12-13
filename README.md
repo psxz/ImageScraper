@@ -1,6 +1,6 @@
 # Image URL Scraper
 
-A simple image url scraper application built with Beautiful Soup, Selenium and Flask. Can be run in Docker after building an image using the provided Dockerfile. Not built for production.
+A simple image url scraper application built with Beautiful Soup, Selenium, Chromedriver and Flask. Can be run in Docker after building an image using the provided Dockerfile. Not built for production.
 
 Currently the application scrapes the parent and child image urls upto level 1 (will be generalized to multiple levels). Multiple scraping jobs can be submitted which run in parallel processes within the Flask app (very bad idea). Each job can have multiple threads (default = 1) and can be given multiple parent urls.
 The application is hosted on local_host and default port is 8080.
