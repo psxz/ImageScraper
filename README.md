@@ -16,4 +16,4 @@ docker run -v /dev/shm:/dev/shm --shm-size=2gb -d -p 8080:8080 IMAGE_NAME
 
 and commenting out the '--disable-dev-shm-usage' option in ScraperCore.py
 
-The saved results can also be stored by adding a 'job_info' directory with Docker run command.
+The saved results can also be stored by adding a 'job_info' directory to the container root with Docker run command.
