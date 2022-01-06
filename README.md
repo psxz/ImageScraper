@@ -8,7 +8,7 @@ The application is hosted on local_host and default port is 8080.
 Beautiful Soup is used to collect set of all valid webpage urls from parent and child webpages.
 Selenium then scrapes all valid image urls (PNG, GIF, JPEG, JPG) from the collected set.
 
-Can be improved with message passing via RQ, Redis or Celery which will allow for safe multiprocesing for multiple jobs. A database can be attached in case of scrapig the actual images as well.
+Can be improved with message passing via Redis Queue or Celery which will allow for safe multiprocesing for multiple jobs. A database can be attached in case of scrapig the actual images as well.
 
 Docker run command can be used to increase the RAM available to the container via the following commands:
 
